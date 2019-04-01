@@ -34,4 +34,5 @@
 
 *samplecode
 @web url="https://github.com/k-endoh/ArcanaMeetup47-48/tree/master/sample-code"
+@jump target="start"
 
