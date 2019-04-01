@@ -14,10 +14,12 @@
 [button x=100 y=450 graphic="title/start.png" target="gamestart"]
 [button x=100 y=530 graphic="title/load.png"  role="load" ]
 
-[if exp="sf.vtuber && sf.library"]
+[if exp="sf.vtuber"]
 [button x=760 y=10 graphic="title/vtuber.png" target="vtuber" ]
+[endif]
+
+[if exp="sf.library"]
 [button x=560 y=10 graphic="title/library.png" target="library" ]
-[else]
 [endif]
 
 ; [button x=100 y=250 graphic="title/button_start.png" target="gamestart"]
