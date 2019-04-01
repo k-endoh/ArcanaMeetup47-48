@@ -1,0 +1,17 @@
+{
+    "name": "bakeo/my-library",
+    "authors": [
+        {
+            "name": "Bakeo",
+            "email": "bakeo@xxxxx.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bakeo\\MyLibrary": "src/"
+        }
+    }
+}
