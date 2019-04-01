@@ -15,7 +15,8 @@
 [button x=100 y=530 graphic="title/load.png"  role="load" ]
 
 [if exp="sf.vtuber && sf.library"]
-[button x=760 y=10 graphic="title/samplecode.png" target="samplecode" ]
+[button x=760 y=10 graphic="title/vtuber.png" target="vtuber" ]
+[button x=560 y=10 graphic="title/library.png" target="library" ]
 [else]
 [endif]
 
@@ -32,7 +33,10 @@
 @jump storage="scene1.ks"
 
 
-*samplecode
-@web url="https://github.com/k-endoh/ArcanaMeetup47-48/tree/master/sample-code"
+*vtuber
+@web url="https://github.com/enkatsu/php-face-osc-test"
 @jump target="start"
 
+*library
+@web url="https://github.com/k-endoh/ArcanaMeetup47-48/tree/master/sample-code"
+@jump target="start"
