@@ -14,6 +14,11 @@
 [button x=100 y=450 graphic="title/start.png" target="gamestart"]
 [button x=100 y=530 graphic="title/load.png"  role="load" ]
 
+[if exp="sf.vtuber && sf.library"]
+[button x=760 y=10 graphic="title/samplecode.png" target="samplecode" ]
+[else]
+[endif]
+
 ; [button x=100 y=250 graphic="title/button_start.png" target="gamestart"]
 ; [button x=100 y=320 graphic="title/button_load.png"  role="load" ]
 ; [button x=100 y=390 graphic="title/button_cg.png" storage="cg.ks" ]
@@ -27,4 +32,6 @@
 @jump storage="scene1.ks"
 
 
+*samplecode
+@web url="https://github.com/k-endoh/ArcanaMeetup47-48/tree/master/sample-code"
 
